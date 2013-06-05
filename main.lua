@@ -23,7 +23,7 @@ local names = {
 
 
 --create the name text object
-local name = display.newText("", 0, 0, system.nativeFont, 40)
+local name = display.newText("", 0, 0, native.systemFont, 40)
 name.x = screen.middleX
 name.y = screen.middleY
 name.isVisible = false
